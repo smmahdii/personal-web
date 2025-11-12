@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Md Mehedi Hasan</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Mehedi</div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="education.html">Education</a></li>
+                    <li><a href="experience.html">Experience</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="portfolio">
+        <div class="container">
+            <h2>My Portfolio</h2>
+            <p class="portfolio-intro">A collection of my educational materials, graphic design projects, and creative works that showcase my dual expertise in education and design.</p>
+            
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="education">Educational</button>
+                <button class="filter-btn" data-filter="design">Graphic Design</button>
+                <button class="filter-btn" data-filter="creative">Creative</button>
+            </div>
+
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="education">
+                    <img src="portfolio1.webp" alt="Educational Materials">
+                    <div class="portfolio-overlay">
+                        <h3>Educational Materials</h3>
+                        <p>Interactive learning resources for computer science students</p>
+                        <span class="portfolio-category">Education</span>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="design">
+                    <img src="portfolio2.webp" alt="Graphic Design Work">
+                    <div class="portfolio-overlay">
+                        <h3>Graphic Design</h3>
+                        <p>Creative visuals and illustrations using Adobe tools</p>
+                        <span class="portfolio-category">Design</span>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="education">
+                    <img src="portfolio2.1.webp" alt="Class Presentations">
+                    <div class="portfolio-overlay">
+                        <h3>Class Presentations</h3>
+                        <p>Engaging visual presentations for effective teaching</p>
+                        <span class="portfolio-category">Education</span>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="creative">
+                    <img src="portfolio1.3.webp" alt="Creative Projects">
+                    <div class="portfolio-overlay">
+                        <h3>Creative Projects</h3>
+                        <p>Personal design explorations and experiments</p>
+                        <span class="portfolio-category">Creative</span>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="design">
+                    <img src="portfolio4.webp" alt="Brand Identity">
+                    <div class="portfolio-overlay">
+                        <h3>Brand Identity</h3>
+                        <p>Complete brand identity design for educational institute</p>
+                        <span class="portfolio-category">Design</span>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="education">
+                    <img src="portfolio5.webp" alt="Study Materials">
+                    <div class="portfolio-overlay">
+                        <h3>Study Materials</h3>
+                        <p>Comprehensive study guides and reference materials</p>
+                        <span class="portfolio-category">Education</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">Md Mehedi Hasan</div>
+                <p class="copyright">© 2024 Md Mehedi Hasan. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
